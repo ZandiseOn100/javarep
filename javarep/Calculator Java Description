@@ -1,0 +1,16 @@
+Summary of How It Works:
+Input Collection: The program uses a Scanner object to collect eight inputs from the user. These inputs correspond to the numbers used in different arithmetic operations.
+
+String to Integer Conversion: The collected inputs, initially in string format, are converted to integers using Integer.parseInt().
+
+Arithmetic Operations:
+
+Addition: The first two inputs are added together.
+Multiplication: The third and fourth inputs are multiplied.
+Division: The fifth input is divided by the sixth input. A check is included to prevent division by zero.
+Subtraction: The seventh input is subtracted by the eighth input.
+Output Results: The program prints the results of the arithmetic operations. If a division by zero is attempted, an error message is displayed instead.
+
+Key Features:
+Error Handling: The program includes a check to prevent division by zero.
+User Interaction: The program prompts the user for inputs and provides clear output messages.
